@@ -54,10 +54,13 @@ Then, you need to write Image to the microSD Card:
 4. Set the developer kit on top of the paper stand.
 5. Insert the microSD card (with system image already written to it) into the slot on the underside of the Jetson Nano module:
 
-![Jetson_Nano-Getting_Started-Setup-Insert_microSD-B01 Image](./Images/Jetson_Nano-Getting_Started-Setup-Insert_microSD-B01.png)
+    ![Jetson_Nano-Getting_Started-Setup-Insert_microSD-B01 Image](./Images/Jetson_Nano-Getting_Started-Setup-Insert_microSD-B01.png)
 
 6. Power on your computer display and connect it.
 7. Connect the USB keyboard and mouse.
-8. Connect your Micro-USB power supply (5V⎓2A). The Jetson Nano Developer Kit will power on and boot automatically. Here
+8. Connect your Micro-USB power supply (5V⎓2A) or the power cables from OpenCR on the Turtlebot 3. The Jetson Nano Developer Kit will power on and boot automatically. 
+9. When you boot the first time, the Jetson Nano Developer Kit will take you through some initial setup. Complete them and log in. Congratulations!
+
+    ![Jetbot_animation_500x282_2 Gif](./Images/Jetbot_animation_500x282_2.gif)
 
 
