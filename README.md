@@ -17,7 +17,9 @@ This part is written based on the guide about [Getting Started With Jetson Nano 
 This is a summary if you are using Linux. Otherwise, click on the above link and complete this part. 
 You need to have:
 - [x] MicroSD Card as a boot device and for main storage. The minimum recommended is a 16GB UHS-1 card.
-- [x] Micro-USB Power Supply that can deliver `5V⎓2A` at the developer kit’s Micro-USB port
+- [x] Micro-USB Power Supply that can deliver `5V⎓2A` at the developer kit’s Micro-USB port. OR, you can also use the OpenCR on the TB3 to power the Jetson Nano from `40-pin expansion header` like this:
+
+    ![Power_Jetson_Nano_from_40pin_expansion_header Image](./Images/Power_Jetson_Nano_from_40pin_expansion_header.png)
 
 Then, you need to write Image to the microSD Card:
 
@@ -48,4 +50,14 @@ Then, you need to write Image to the microSD Card:
 
     Your microSD card is ready now!
 
-3. Third item
+3. Unfold the paper stand and place inside the developer kit box.
+4. Set the developer kit on top of the paper stand.
+5. Insert the microSD card (with system image already written to it) into the slot on the underside of the Jetson Nano module:
+
+![Jetson_Nano-Getting_Started-Setup-Insert_microSD-B01 Image](./Images/Jetson_Nano-Getting_Started-Setup-Insert_microSD-B01.png)
+
+6. Power on your computer display and connect it.
+7. Connect the USB keyboard and mouse.
+8. Connect your Micro-USB power supply (5V⎓2A). The Jetson Nano Developer Kit will power on and boot automatically. Here
+
+
